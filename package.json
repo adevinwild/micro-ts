@@ -7,7 +7,7 @@
     "default": "./dist/index.modern.js"
   },
   "version": "1.0.0",
-  "description": "A micro minimalist template to publish TypeScript library with `microbundle`",
+  "description": "A micro minimalist template to publish TypeScript packages with `microbundle`",
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
