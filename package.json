@@ -1,22 +1,22 @@
 {
   "name": "micro-ts",
-  "type": "module",
-  "source": "src/index.ts",
+  "version": "1.1.1",
+  "repository": "https://github.com/adevinwild/micro-ts",
+  "author": "adevinwild",
+  "license": "MIT",
   "files": [
     "dist"
   ],
+  "type": "module",
+  "source": "src/index.ts",
   "exports": {
     "require": "./dist/index.cjs",
     "default": "./dist/index.modern.js"
   },
-  "version": "1.0.0",
   "description": "A micro minimalist template to publish TypeScript packages with `microbundle`",
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
-  "repository": "https://github.com/adevinwild/micro-ts",
-  "author": "adevinwild",
-  "license": "MIT",
   "scripts": {
     "build": "npm run clean && microbundle",
     "dev": "microbundle watch",
