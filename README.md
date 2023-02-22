@@ -63,7 +63,7 @@ The `package.json` file contains the following keys:
 
 <small>This is a copy of the `microbundle` documentation.</small>
 
-When you build your project using `microbundle, three different file formats are generated:
+When you build your project using `microbundle`, three different file formats are generated:
 
 -   <kbd>.umd.js</kbd>: A Universal Module Definition (UMD) file format that works in different module systems, including AMD, CommonJS, and global scripts.
 
